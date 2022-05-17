@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+img {
+    height: 98px
+}
+
+header {
+    background: #f2efc7;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+
+.nav-link {
+    color: black;
+}
+
+.nav-link:hover {
+    color: coral;
+    transition: all 0.3s;
+    background: whitesmoke;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+main {
+    display: flex;
+    height: 620px;
+    background-image: url(./img/fondo.jpg);
+    background-position: center;
+    background-size: cover;
+}
+h1 {
+    /* background: red; */
+    width: 100%;
+    height: 10%;
+    color: white;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
